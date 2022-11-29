@@ -7,5 +7,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
     path('products/', products, name='products'),
-    path('test-context/', test_context, name='text_context')
+    path('test-context/', test_context, name='text_context'),
 ]
